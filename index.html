@@ -1,0 +1,91 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Product Landing Page </title>
+  <meta name = "description" content = "Product Landing Page">
+  <meta name = "author" content = "Rose Company">
+  <meta name = "viewport" content = "width = device-width, inital-scale = 1">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <ul><img style = "height: 40px;width: 40px;float: left; margin-left:40px;"src = "https://images.pexels.com/photos/15239/flower-roses-red-roses-bloom.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+       <a id = "title"style = "float:left;" href = "#home">Rose Company</a>
+      <li> <a href = "#contact">Contact</a></li>
+      <li><a href = "#packages"> Packages</a></li>
+      <li><a href = "#home"> Home </a></li>
+    </ul>
+  </nav>
+  <div style = "background-color: #f8f8f8; padding:15px;">
+    <h1 style = "text-align:center; color:#177de2"> Welecome to the Rose Company!</h1>
+    <img src ="https://images.pexels.com/photos/460090/pexels-photo-460090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt = "roses">
+  </div>
+  
+  <div class = "header about-container"> 
+    <h1 style = "color:#177de2" id = "packages"> Packages </h1>
+    <div class = "flex-container">
+      
+    <div class = "flex-box">Romance Package - $29.99<hr>
+      <p> The romance package is Rose Company's starter package. It comes with a boquet of flowers and a appreciation card. This package is great for Mother's Day to show appreiciation for everything that they do you. </p>
+      <input id = "buy-button" type = "submit" value = "Buy"></input>
+      </div> 
+      
+    <div class = "flex-box">Lover's Package - $39.99 <hr>
+      <p> The Lover's package includes everything in the previous package. Along with adding a bit more intimacy and personalization. This package allows you to personally custiomize the card of your card for that special someone. Purchasing this package you will get 25% off discount coupoun. </p>
+      <input id = "buy-button" type = "submit" value = "Buy"></input>
+      </div> 
+      
+    <div class = "flex-box">Cupid Package - $49.99<hr><p> Rose Comapny offers a single purchase of a boquet of roses for  a price of $49.99.</p>
+      <input id = "buy-button" type = "submit" value = "Buy"></input>
+      </div>
+  </div>
+  </div>
+  
+  <form id = "contact-form" style = "justify-content:center">
+    
+    <h1 class = "header" id = "contact"> Contact </h1>
+    <fieldset>
+    <label for = "name"><strong> Name: <strong> </label>
+    <input type = "text"id = "first-name" placeholder = "Enter your name">
+    
+    <label for = "email"> Email: </label>
+    <input type = "text" id = "email" placeholder = "Enter your email"><br>
+    
+    <legend>Type Message Here</legend>
+    <textarea placeholder = "Enter your message!"></textarea>
+    </fieldset>
+    <br>
+    <input style = "background-color:yelloworange;border-radius:10%;margin: 10px 0px;" type = "submit" value = "Submit">
+  </form>
+   
+  <footer id = "footer">
+    <div>
+      
+    </div>
+  
+    
+      <i class="fab fa-instagram"></i>
+      <div style = "text-align:center;padding: 5px;margin-right: 5px;">
+      <p style = "text-align:center;">  @2019 All rights reserved to Rose Comapny  | <span>Privacy</span> 
+      <span>Terms </span> 
+      <span>Contact</span> 
+      </div>
+      
+  </footer>
+</body>
+</html>

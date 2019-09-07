@@ -1,0 +1,128 @@
+li{
+  float: right;
+}
+li a{
+  display: block;
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact-form{
+  height: auto;
+  width: 100%;
+  background-color: #b4eaf7;
+  block: inline;
+  text-align: center;
+}
+.header{
+  text-align: center;
+  
+}
+#text{
+  margin-bottom: 20px;
+}
+fieldset{
+  display:inline;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+textarea{
+  height: 100px;
+  width: 400px;
+  
+}
+li a:hover{
+  background-color: #505958;
+  color: white;
+  text-decoration: underline;
+}
+.logo{
+  width: 60px;
+  height: 30px;
+}
+ul{
+   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+.flex-container{
+  display: flex;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 50%;
+}
+.flex-box{
+  margin: 15px;
+  font-size: 24px;
+  width: 250px;
+  height: 250px;
+  background-color: #eeeeee;
+  border-radius:5%;
+  padding:10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-flex-contianer{
+  display: flex;
+  
+}
+.footer-flex{
+  
+}
+.footer-box{
+  
+}
+p{
+  font-size: 16px;
+}
+#footer{
+  background-color: #333;
+  height: auto;
+  width: 100%;
+  color:white;
+}
+span:hover{
+  color: lightblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#form-container{
+  width: 70%;
+  height: auto;
+}
+html body{
+  font-family: 'Cormorant Upright', serif;
+
+}
+#buy-button{
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
+#title{
+  text-decoration: none;
+  font-size: 32px;
+  color:#ff007f;
+  padding-left: 5px;
+}
+#title:hover{
+  color: #10559A;
+}
+
+@media screen (max-width: 500px){
+  
+}
