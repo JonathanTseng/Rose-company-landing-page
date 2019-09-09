@@ -126,7 +126,9 @@ html body{
 #title:hover{
   color: #10559A;
 }
-
+nav .icon{
+  display: hidden;
+}
 @media (max-width: 600px){
   .flex-container{ 
     display: block;
@@ -138,3 +140,30 @@ html body{
     align-items: center;
   }
 }
+
+  @media screen and (max-width: 500px) {
+    nav .responsive 
+    {
+      position: relative;
+    }
+
+    nav .responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    nav .responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    nav a
+    {
+      display: none;
+    }
+    nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
